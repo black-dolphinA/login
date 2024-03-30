@@ -1,0 +1,75 @@
+div.dad{
+    position: relative;
+    
+    background-color: rgba(255, 230, 0, 0.966);
+    border-radius: 25px;
+    width: 900px ;
+    height:1000px ;
+    margin: 50px auto;
+}
+div.border{
+    position: absolute;;
+    background-color: rgb(255, 255, 255);
+    border: 3px dashed rgb(243, 198, 0) ;
+    border-radius: 25px;
+    width: 550px ;
+    height:700px ;
+    top: 50%;
+    left: 50%; 
+    transform : translate(-50%,-50%)
+
+}
+.form-input{
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 39px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 0 gray;
+    background-color: rgb(255, 233, 134);
+    transition: 0.5s;
+    border: 1px solid rgb(124, 123, 121);
+    padding-left: 20px;
+}
+::placeholder{
+    font-family:monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+.form-input:focus{
+    transition: 0.5s;
+    background-color: antiquewhite;
+
+}
+
+.form-input:hover{
+    background-color: rgb(255, 198, 75);
+    transition: 0.5s;
+    border: 3px solid rgb(255, 198, 75);
+    
+}
+.submit{
+    display: block;
+    margin: 33px auto;
+    padding: 8px 20px;
+    background-color: rgb(243, 62, 62);
+    border-radius: 5px ;
+    border: 2px solid rgb(250, 154, 154);
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit:hover{
+    transition: 0.3s;
+    background-color: aliceblue;
+    color: rgb(243, 62, 62);
+
+}
+.submit:focus{
+    background-color: aliceblue;
+    color: rgb(243, 62, 62);
+    border: 2px solid red;
+}
